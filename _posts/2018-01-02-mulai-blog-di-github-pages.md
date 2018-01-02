@@ -18,6 +18,6 @@ Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the 
 
 
 <figure>
-	<img src="{{ site.url }}{{ site.baseurl }}/assets/img/ubuntu.jpg" alt="ubuntu wallpapers">
+	<img src="{{ site.baseurl }}/assets/img/ubuntu.jpg" alt="ubuntu wallpapers">
   <figcaption>Ubuntu Wallpaper</figcaption>
 </figure>
