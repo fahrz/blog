@@ -20,6 +20,7 @@ permalink: /tags/
       <!-- List of all tags -->
       <footer class="page__meta">
         <p class="page__taxonomy">
+          <strong><i class="fa fa-fw fa-tags" aria-hidden="true"></i>Tags:</strong>
           <span itemprop="keywords">
             
               {% for item in (0..site.tags.size) %}{% unless forloop.last %}
