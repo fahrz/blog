@@ -83,18 +83,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Fachreza"
   avatar           : "/assets/img/bio.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "learners"
+  location         : "Bekasi - Indonesia"
   email            :
   uri              :
-  home             : # null (default), "absolute or relative url to link to author home"
+  home             : "Aceh" # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "https://facebook.com/fachreza.id/"
   foursquare       :
   github           :
   gitlab           :
