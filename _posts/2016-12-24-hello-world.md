@@ -1,8 +1,8 @@
 ---
-title:  "Haiiii!"
+title: Haiiii!
 header:
-  teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
-categories: 
+  teaser: 'https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg'
+categories:
   - Jekyll
   - Test
 tags:
@@ -10,6 +10,7 @@ tags:
   - tag-baru
   - mungkin
   - hallo
+published: true
 ---
 
 You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. 
