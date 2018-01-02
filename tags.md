@@ -45,7 +45,7 @@ permalink: /tags/
           <h2 id="{{ this_word | cgi_escape }}">{{ this_word }}</h2>
           {% for post in site.tags[this_word] %}{% if post.title != null %}
             <div>
-              <span style="float: left;">
+              <span class="archive__item-title" style="float: left;">
                 <a href="{{ post.url }}">{{ post.title }}</a>
               </span>
               <span style="float: right;">
