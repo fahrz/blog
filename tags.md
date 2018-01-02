@@ -27,7 +27,7 @@ permalink: /tags/
           </li>
         {% endunless %}{% endfor %}
       </ul>
-      ---
+      
 
 
       <!-- Posts by Tag -->
