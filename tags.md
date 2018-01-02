@@ -26,7 +26,7 @@ permalink: /tags/
               {% for item in (0..site.tags.size) %}{% unless forloop.last %}
                 {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
                 
-                  <a href="#{{ this_word | cgi_escape }}" class="page__taxonomy-item" rel="tag">{{ this_word }}
+                  <a href="#{{ this_word | cgi_escape }}" class="page__taxonomy-item">{{ this_word }}
                     <span>({{ site.tags[this_word].size }})</span>
                   </a>
                 
@@ -45,7 +45,7 @@ permalink: /tags/
           <h2 id="{{ this_word | cgi_escape }}">{{ this_word }}</h2>
           {% for post in site.tags[this_word] %}{% if post.title != null %}
             <div>
-              <span class="archive__item-title" style="float: left;">
+              <span style="float: left;">
                 <a href="{{ post.url }}">{{ post.title }}</a>
               </span>
               <span style="float: right;">
