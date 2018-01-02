@@ -20,16 +20,18 @@ permalink: /tags/
       <!-- List of all tags -->
       <footer class="page__meta">
         <p class="page__taxonomy">
-          <ul class="tags">
-            {% for item in (0..site.tags.size) %}{% unless forloop.last %}
-              {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
-              <li>
-                <a href="#{{ this_word | cgi_escape }}" class="tag">{{ this_word }}
-                  <span>({{ site.tags[this_word].size }})</span>
-                </a>
-              </li>
-            {% endunless %}{% endfor %}
-          </ul>
+          <span itemprop="keywords">
+            
+              {% for item in (0..site.tags.size) %}{% unless forloop.last %}
+                {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
+                
+                  <a href="#{{ this_word | cgi_escape }}" class="page__taxonomy-item" rel="tag">{{ this_word }}
+                    <span>({{ site.tags[this_word].size }})</span>
+                  </a>
+                
+              {% endunless %}{% endfor %}
+           
+          </span>
         </p>
       </footer>
       
