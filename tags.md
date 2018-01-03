@@ -18,7 +18,7 @@ permalink: /tags/
       {% assign tag_words = site_tags | split:',' | sort %}
 
       <!-- List of all tags -->
-      <footer>
+      <footer class="page__meta">
         <p class="page__taxonomy">
           <strong><i class="fa fa-fw fa-tags" aria-hidden="true"></i>Tags:</strong>
           <span itemprop="keywords">
