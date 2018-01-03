@@ -16,9 +16,11 @@ permalink: /tags/
 
       <!-- `tag_words` is a sorted array of the tag names. -->
       {% assign tag_words = site_tags | split:',' | sort %}
-
+      <header>
+        <h1 class="page_title">Tags:</h1>
+      </header>
       <!-- List of all tags -->
-      <footer class="page__meta">
+      <footer class="page__meta" style="float: none;">
         <p class="page__taxonomy">
           <strong><i class="fa fa-fw fa-tags" aria-hidden="true"></i>Tags:</strong>
           <span itemprop="keywords">
