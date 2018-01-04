@@ -4,6 +4,9 @@ title: Menulis itu belajar
 tags:
   - belajar
   - menulis
+header:
+  image: /assets/img/ubuntu.jpg
+  og_image: /assets/img/ubuntu.jpg
 ---
 Enthusiastically fashion backend expertise whereas proactive processes. Enthusiastically benchmark sustainable paradigms rather than excellent e-tailers. Objectively harness multidisciplinary niche markets before flexible systems. Efficiently whiteboard state of the art e-business through competitive synergy. Dynamically strategize quality leadership skills with virtual bandwidth.
 
