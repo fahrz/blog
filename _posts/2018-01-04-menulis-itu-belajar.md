@@ -5,8 +5,10 @@ tags:
   - belajar
   - menulis
 header:
-  image: /assets/img/ubuntu.jpg
+  overlay_image: /assets/img/ubuntu.jpg
   og_image: /assets/img/ubuntu.jpg
+  caption: 'Photo credit: [**Unsplash**](https://unsplash.com)'
+  cta_url: 'https://unsplash.com'
 ---
 Enthusiastically fashion backend expertise whereas proactive processes. Enthusiastically benchmark sustainable paradigms rather than excellent e-tailers. Objectively harness multidisciplinary niche markets before flexible systems. Efficiently whiteboard state of the art e-business through competitive synergy. Dynamically strategize quality leadership skills with virtual bandwidth.
 
