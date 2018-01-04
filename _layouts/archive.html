@@ -19,6 +19,11 @@ layout: default
 
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
+      
+      {% if page.url = "/" %}
+        <h1 class="page__title">Recent Posts</h1>
+      {% endif %}
+
       <h1 class="page__title">{{ page.title }}</h1>
     {% endunless %}
     {{ content }}
