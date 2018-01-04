@@ -5,8 +5,6 @@ tags:
   - belajar
   - menulis
 ---
-## Menulis itu belajar
-
 Enthusiastically fashion backend expertise whereas proactive processes. Enthusiastically benchmark sustainable paradigms rather than excellent e-tailers. Objectively harness multidisciplinary niche markets before flexible systems. Efficiently whiteboard state of the art e-business through competitive synergy. Dynamically strategize quality leadership skills with virtual bandwidth.
 
 Seamlessly maintain mission-critical services for cost effective methods of empowerment. Assertively syndicate next-generation products rather than prospective innovation. Credibly predominate cooperative schemas after accurate technologies. Seamlessly build proactive models vis-a-vis cooperative technologies. Appropriately streamline diverse mindshare for scalable scenarios.
