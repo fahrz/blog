@@ -2,12 +2,12 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Archive"
-    url: /archive/
+  # - title: "Archive"
+  #   url: /archive/
   - title: "Tags"
     url: /tags/
-  - title: "Project"
-    url: /project/
+  # - title: "Project"
+  #   url: /project/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
