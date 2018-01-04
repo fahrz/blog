@@ -2,7 +2,8 @@
 published: true
 title: Menulis itu belajar
 tags:
-  - belajar - menulis
+  - belajar
+  - menulis
 ---
 ## Menulis itu belajar
 
