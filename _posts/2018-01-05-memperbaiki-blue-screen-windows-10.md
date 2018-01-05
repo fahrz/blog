@@ -23,3 +23,4 @@ Niatnya mau di install ulang windows, namun tidak bisa juga, tetap muncul error 
 
 Setelah itu, saya googling dengan kata kunci seperti keterangan error pada gambar di atas, yaitu BAD_SYSTEM_CONFIG_INFO. Akhirnya ketemu salah satu video dari youtube:
 
+{% include video id="Wor7mASx3ws" provider="youtube" %}
