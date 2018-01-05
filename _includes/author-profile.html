@@ -3,9 +3,7 @@
 {% else %}
   {% assign author = site.author %}
 {% endif %}
-
 <div itemscope itemtype="http://schema.org/Person">
-
   {% if author.avatar %}
     <div class="author__avatar">
       {% if author.avatar contains "://" %}
@@ -13,7 +11,6 @@
       {% else %}
         {% assign author_src = author.avatar | absolute_url %}
       {% endif %}
-
       {% if author.home %}
         {% if author.home contains "://" %}
           {% assign author_link = author.home %}
@@ -28,7 +25,6 @@
       {% endif %}
     </div>
   {% endif %}
-
   <div class="author__content">
     {% if author.home %}
       <a href="{{ author_link }}"><h3 class="author__name" itemprop="name">{{ author.name }}</h3></a>
@@ -41,7 +37,6 @@
       </p>
     {% endif %}
   </div>
-
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button>
     <ul class="author__urls social-icons">
@@ -50,7 +45,6 @@
           <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span itemprop="name">{{ author.location }}</span>
         </li>
       {% endif %}
-
       {% if author.uri %}
         <li>
           <a href="{{ author.uri }}" itemprop="url">
@@ -58,7 +52,6 @@
           </a>
         </li>
       {% endif %}
-
       {% if author.email %}
         <li>
           <a href="mailto:{{ author.email }}">
@@ -67,7 +60,6 @@
           </a>
         </li>
       {% endif %}
-
       {% if author.keybase %}
         <li>
           <a href="https://keybase.io/{{ author.keybase }}" itemprop="sameAs">
@@ -75,7 +67,6 @@
           </a>
         </li>
       {% endif %}
-
       {% if author.twitter %}
         <li>
           <a href="https://twitter.com/{{ author.twitter }}" itemprop="sameAs">
@@ -83,7 +74,6 @@
           </a>
         </li>
       {% endif %}
-
       {% if author.facebook %}
         <li>
           <a href="https://www.facebook.com/{{ author.facebook }}" itemprop="sameAs">
@@ -91,7 +81,6 @@
           </a>
         </li>
       {% endif %}
-
       {% if author.google_plus %}
         <li>
           <a href="https://plus.google.com/{{ author.google_plus }}" itemprop="sameAs">
@@ -99,7 +88,6 @@
           </a>
         </li>
       {% endif %}
-
       {% if author.linkedin %}
         <li>
           <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs">
@@ -107,7 +95,6 @@
           </a>
         </li>
       {% endif %}
-
       {% if author.xing %}
         <li>
           <a href="https://www.xing.com/profile/{{ author.xing }}" itemprop="sameAs">
@@ -115,7 +102,6 @@
           </a>
         </li>
       {% endif %}
-
       {% if author.instagram %}
         <li>
           <a href="https://instagram.com/{{ author.instagram }}" itemprop="sameAs">
@@ -123,7 +109,6 @@
           </a>
         </li>
       {% endif %}
-
       {% if author.tumblr %}
         <li>
           <a href="https://{{ author.tumblr }}.tumblr.com" itemprop="sameAs">
@@ -131,7 +116,6 @@
           </a>
         </li>
       {% endif %}
-
       {% if author.bitbucket %}
         <li>
           <a href="https://bitbucket.org/{{ author.bitbucket }}" itemprop="sameAs">
@@ -139,7 +123,6 @@
           </a>
         </li>
       {% endif %}
-
       {% if author.github %}
         <li>
           <a href="https://github.com/{{ author.github }}" itemprop="sameAs">
@@ -147,7 +130,6 @@
           </a>
         </li>
       {% endif %}
-
       {% if author.gitlab %}
         <li>
           <a href="https://gitlab.com/{{ author.gitlab }}" itemprop="sameAs">
@@ -155,7 +137,6 @@
           </a>
         </li>
       {% endif %}
-
       {% if author.stackoverflow %}
         <li>
           <a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}" itemprop="sameAs">
@@ -163,7 +144,6 @@
           </a>
         </li>
       {% endif %}
-
       {% if author.lastfm %}
         <li>
           <a href="https://last.fm/user/{{ author.lastfm }}" itemprop="sameAs">
@@ -171,7 +151,6 @@
           </a>
         </li>
       {% endif %}
-
       {% if author.dribbble %}
         <li>
           <a href="https://dribbble.com/{{ author.dribbble }}" itemprop="sameAs">
@@ -179,7 +158,6 @@
           </a>
         </li>
       {% endif %}
-
       {% if author.pinterest %}
         <li>
           <a href="https://www.pinterest.com/{{ author.pinterest }}" itemprop="sameAs">
@@ -187,7 +165,6 @@
           </a>
         </li>
       {% endif %}
-
       {% if author.foursquare %}
         <li>
           <a href="https://foursquare.com/{{ author.foursquare }}" itemprop="sameAs">
@@ -195,7 +172,6 @@
           </a>
         </li>
       {% endif %}
-
       {% if author.steam %}
         <li>
           <a href="https://steamcommunity.com/id/{{ author.steam }}" itemprop="sameAs">
@@ -203,7 +179,6 @@
           </a>
         </li>
       {% endif %}
-
       {% if author.youtube %}
         {% if author.youtube contains "://" %}
           <li>
@@ -219,7 +194,6 @@
           </li>
         {% endif %}
       {% endif %}
-
       {% if author.soundcloud %}
         <li>
           <a href="https://soundcloud.com/{{ author.soundcloud }}" itemprop="sameAs">
@@ -227,7 +201,6 @@
           </a>
         </li>
       {% endif %}
-
       {% if author.weibo %}
         <li>
           <a href="https://www.weibo.com/{{ author.weibo }}" itemprop="sameAs">
@@ -235,7 +208,6 @@
           </a>
         </li>
       {% endif %}
-
       {% if author.flickr %}
         <li>
           <a href="https://www.flickr.com/{{ author.flickr }}" itemprop="sameAs">
@@ -243,7 +215,6 @@
           </a>
         </li>
       {% endif %}
-
       {% if author.codepen %}
         <li>
           <a href="https://codepen.io/{{ author.codepen }}" itemprop="sameAs">
@@ -251,7 +222,6 @@
           </a>
         </li>
       {% endif %}
-
       {% if author.vine %}
         <li>
           <a href="https://vine.co/u/{{ author.vine }}" itemprop="sameAs">
@@ -259,7 +229,6 @@
           </a>
         </li>
       {% endif %}
-
       {% include author-profile-custom-links.html %}
     </ul>
   </div>
